@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #E6E6E7;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.innerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    padding: 1.7rem;
+    /* border: 2px solid green; */
+    border-radius: 0.5rem;
+    width: 40vw;
+    background:linear-gradient(170deg , #6991AE 70% , #75B2AE 30%) ;
+
+}
+.cross{
+    padding: 0.7rem;
+
+}
+.timer{
+    font-size: 22px;
+    color: #FAFCFF;
+    font-weight: bold;
+}
